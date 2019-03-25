@@ -5,6 +5,7 @@ body {
   background: rgb(153,153,153);
   color: rgb(9,9,9);
   font-family: 'Roboto', sans-serif;
+  font-size:18px;
 }
  a {
    color: rgb(80,89,58);
@@ -20,3 +21,14 @@ body {
 #hero {
   font-family: 'Slabo 27px', serif;
 }
+
+.featured-grid {
+  dipslay: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  grid
+}
+
+ .feature-grid-img {
+   max-width: 30%;
+ }
