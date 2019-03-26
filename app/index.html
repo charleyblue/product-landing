@@ -6,44 +6,36 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
   </head>
   <body>
+    <div id="container">
+      <header id="header" class="flex-container">
+        <img id="header-img" class="stylist-logo" src="assets/images/stylist-logo.svg" alt="stylist logo">
+        <nav id="nav-bar" class="nav">
+          <a class="nav-link" href="#featured">Featured This Month</a>
+          <a class="nav-link" href="#">New Snazzy Wear</a>
+          <a class="nav-link how" href="#">How Stylist Works</a>
+        </nav>
+      </header>
 
-    <header id="header">
-      <div id="header-img">
-        <img src="assets/images/stylist-logo.svg" alt="stylist logo">
-      </div>
-      <nav id="nav-bar">
-        <ul id="nav-list">
-          <li><a class="nav-link" href="#featured">Featured This Month</a></li>
-          <li><a class="nav-link" href="#">New Snazzy Wear</a></li>
-          <li><a class="nav-link" href="#">How Stylist Works</a></li>
-        </ul>
-      </nav>
-    </header>
+      <section id="hero" class="flex-container__column">
+        <h1 class="headline">Stylist Menswear</h1>
+        <h2 class="subheadline">Deals of the Month Club!</h2>
+        <form id="form" class="" action="index.html" method="post">
+          <label for="deals-of-month">
+            <input id="deals-of-month" type="email" placeholder="Email"><br>
+            Get Your Deals!
+          </label>
+          <input id="submit" class="btn" type="submit" value="Sign-up!">
+        </form>
+      </section>
 
-    <section id="hero">
-      <h1 class="headline">Stylist Menswear</h1>
-      <h2 class="subheadline">Deals of the Month Club!</h2>
-      <form id="form" class="" action="index.html" method="post">
-        <label for="deals-of-month">
-          <input id="deals-of-month" type="email" placeholder="Email"><br>
-          Get Your Deals!
-        </label>
-        <input id="submit" class="btn" type="submit" value="Sign-up!">
-      </form>
-    </section>
-
-    <main>
-      <div id="featured" class="featured-grid">
+      <section id="featured" class="featured-grid">
         <img src="assets/images/jacket-322.jpg" alt="jacket style 322" class="feature-grid-img">
         <img src="assets/images/tee-123.jpg" alt="tee shirt style 123" class="feature-grid-img">
         <img src="assets/images/vest-231.jpg" alt="vest-suit style 231" class="feature-grid-img">
-      </div>
-      <div id="video">
+      </section>
+      <section id="video">
 
-      </div>
-      <div id="form">
-
-      </div>
-    </main>
+      </section>
+    </div>    
   </body>
 </html>
