@@ -16,12 +16,20 @@ html, body {
    list-style: none;
  }
  #container {
+   border: 1px solid darkblue;
    position: relative;
    margin: 0 auto;
    max-width: 1024px;
  }
 #header {
-  /* position: fixed; */
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: 80%;
+}
+.main {
+  margin-top: 100px;
 }
 .flex-container {
   display: flex;
@@ -34,6 +42,7 @@ html, body {
 .stylist-logo {
   border: 1px solid darkgray;
   margin-left: 25px;
+  margin-top: 15px;
 }
 .nav {
   border: 1px solid #7A9199;
@@ -42,7 +51,7 @@ html, body {
 
 }
 .nav-link {
-  padding-right: 10px;
+  padding: 0px 6px;
 }
 #hero {
   font-family: 'Slabo 27px', serif;
