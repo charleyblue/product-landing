@@ -2,26 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stylist Menswear</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
   </head>
   <body>
+    <header id="header" class="flex-container">
+       <img id="header-img" class="stylist-logo" src="assets/images/stylist-logo.svg" alt="stylist logo">
+         <nav id="nav-bar">
+           <a class="nav-link" href="#latest">Featured This Month</a>
+           <span>|</span>
+           <a class="nav-link" href="#">New Snazzy Wear</a>
+           <span>|</span>
+           <a class="nav-link how" href="#">How Stylist Works</a>
+         </nav>
+
+    </header>
     <div id="container">
-      <header id="header" class="flex-container">
-        <img id="header-img" class="stylist-logo" src="assets/images/stylist-logo.svg" alt="stylist logo">
-        <nav id="nav-bar" class="nav">
-          <a class="nav-link" href="#featured">Featured This Month</a>
-          <span>|</span>
-          <a class="nav-link" href="#">New Snazzy Wear</a>
-          <span>|</span>
-          <a class="nav-link how" href="#">How Stylist Works</a>
-        </nav>
-      </header>
       <main class="main">
-        <section id="hero" class="flex-container__column">
-          <h1 class="headline">Stylist Menswear</h1>
-          <h2 class="subheadline">Deals of the Month Club!</h2>
-          <form id="form" class="" action="index.html" method="post">
+        <section id="hero" class=" hero flex-container__column">
+          <h1 class="hero-headline">Stylist Menswear</h1>
+          <h2 class="hero-subheadline">Deals of the Month Club!</h2>
+          <form id="form" class="hero-form" action="index.html" method="post">
             <label for="deals-of-month">
               <input id="deals-of-month" type="email" placeholder="Email"><br>
               Get Your Deals!
@@ -29,14 +31,31 @@
             <input id="submit" class="btn" type="submit" value="Sign-up!">
           </form>
         </section>
-
-        <section id="featured" class="featured-grid">
+        <section id="latest" class="flex-container">
           <img src="assets/images/jacket-322.jpg" alt="jacket style 322" class="feature-grid-img">
           <img src="assets/images/tee-123.jpg" alt="tee shirt style 123" class="feature-grid-img">
           <img src="assets/images/vest-231.jpg" alt="vest-suit style 231" class="feature-grid-img">
         </section>
         <section id="video">
+          <h3 class="video-headline">2019 Men's Style Trends</h3>
+          <div class="video-container">
+            <iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/FzLLFK6AYjM" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section id="" class="about">
+          <div class="featured">
 
+            <span class="featured-float-left">Future Icon 1</span>
+            <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+          </div>
+          <div class="featured">
+            <span class="icon">Future Icon 2</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+          </div>
+          <div class="featured">
+            <span class="icon">Future Icon 3</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+          </div>
         </section>
       </main>
     </div>
