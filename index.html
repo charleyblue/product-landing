@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stylist Menswear</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
-
   </head>
   <body>
     <header id="header" class="flex-container">
@@ -15,55 +14,51 @@
          <span>|</span>
          <a class="nav-link" href="#video">Trends 2019</a>
          <span>|</span>
-         <a class="nav-link how" href="#about">How Stylist Works</a>
+         <a class="nav-link" href="#about">How Stylist Works</a>
        </nav>
     </header>
-    <div id="container">
-      <main class="main">
-        <section id="hero" class=" hero flex-container__column">
-          <h1 class="hero-headline">Stylist Menswear</h1>
-          <div class="border-bottom">
-            <h2 class="hero-subheadline">Deals of the Month Club!</h2>
-          </div>
-          <form id="form" class="hero-form flex-container__column" action="index.html" method="post">
-            <input id="deals-of-month" class="hero-form__input" type="email" placeholder="Email"><br>
-            <label for="deals-of-month" class="hero-form__label">Get Your Deals!</label><br>
-            <input id="submit" class="hero-form__btn" type="submit" value="Sign-up!">
-          </form>
-        </section>
-        <section id="latest" class="flex-container">
-          <img src="assets/images/jacket-322.jpg" alt="jacket style 322" class="feature-grid-img">
-          <img src="assets/images/tee-123.jpg" alt="tee shirt style 123" class="feature-grid-img">
-          <img src="assets/images/vest-231.jpg" alt="vest-suit style 231" class="feature-grid-img">
-        </section>
-        <section id="video">
-          <div class="border-bottom">
-            <h3 class="video-headline">2019 Men's Style Trends</h3>
-          </div>          
-          <div class="video-container">
-            <iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/FzLLFK6AYjM" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </section>
-        <section id="about" class="about">
-          <h3 class="about-headline">Stylist Menswear 2019</h3>
-          <div class="featured">
-            <span class="featured-float-left">Future Icon 1</span>
-            <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
-          </div>
-          <div class="featured">
-            <span class="icon">Future Icon 2</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
-          </div>
-          <div class="featured">
-            <span class="icon">Future Icon 3</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
-          </div>
-          <div class="featured">
-            <span class="icon">Future Icon 4</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
-          </div>
-        </section>
-      </main>
+    <div id="container" class="main">
+      <section id="hero" class="hero flex-container__column">
+        <h1 class="hero-headline">Stylist Menswear</h1>
+        <div class="border-bottom">
+          <h2 class="hero-subheadline">Deals of the Month Club!</h2>
+        </div>
+        <form id="form" class="hero-form flex-container__column" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input name="email" id="email" class="hero-form__input" type="email" placeholder="Email"><br>
+          <label for="email" class="hero-form__label">Get Your Deals!</label><br>
+          <input id="submit" class="hero-form__btn" type="submit" value="Sign-up!">
+        </form>
+      </section>
+      <section id="latest" class="flex-container">
+        <img src="assets/images/jacket-322.jpg" alt="jacket style 322" class="feature-grid-img">
+        <img src="assets/images/tee-123.jpg" alt="tee shirt style 123" class="feature-grid-img">
+        <img src="assets/images/vest-231.jpg" alt="vest-suit style 231" class="feature-grid-img">
+      </section>
+      <section class="video">
+        <h3 class="video-headline">2019 Men's Style Trends</h3>
+        <div class="video-container">
+          <iframe id="video" width="560" height="315" align="middle" src="https://www.youtube.com/embed/FzLLFK6AYjM" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <h3 class="about-headline">Stylist Menswear 2019</h3>
+        <div class="featured">
+          <span class="featured-float-left">Future Icon 1</span>
+          <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+        </div>
+        <div class="featured">
+          <span class="featured-float-left">Future Icon 2</span>
+          <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+        </div>
+        <div class="featured">
+          <span class="featured-float-left">Future Icon 3</span>
+          <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+        </div>
+        <div class="featured">
+          <span class="featured-float-left">Future Icon 4</span>
+          <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+        </div>
+      </section>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
       const freecodecampCdn = window.bundle;
