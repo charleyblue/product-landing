@@ -80,14 +80,18 @@ body {
 }
 .border-top {
   border-top: 1px solid coral;
-  
+
 }
 .hero-form__input {
   margin: 1em;
   padding: 5px 10px;
 }
+.hero-form__label {
+  color: coral;
+}
 .hero-form__btn {
   background-color: coral;
+  padding: .4em 2em;
   text-align: center;
 }
 #latest {
