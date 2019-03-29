@@ -74,8 +74,13 @@ body {
   margin: 0;
   padding-top: 1em;
 }
-.hero-subheadline {
+.border-bottom {
   border-bottom: 1px solid coral;
+  margin-bottom: 1em;
+}
+.border-top {
+  border-top: 1px solid coral;
+  
 }
 .hero-form__input {
   margin: 1em;

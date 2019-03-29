@@ -22,8 +22,10 @@
       <main class="main">
         <section id="hero" class=" hero flex-container__column">
           <h1 class="hero-headline">Stylist Menswear</h1>
-          <h2 class="hero-subheadline">Deals of the Month Club!</h2>
-          <form id="form" class="hero-form" action="index.html" method="post">
+          <div class="border-bottom">
+            <h2 class="hero-subheadline">Deals of the Month Club!</h2>
+          </div>
+          <form id="form" class="hero-form flex-container__column" action="index.html" method="post">
             <input id="deals-of-month" class="hero-form__input" type="email" placeholder="Email"><br>
             <label for="deals-of-month">Get Your Deals!</label><br>
             <input id="submit" class="hero-form__btn" type="submit" value="Sign-up!">
@@ -43,7 +45,6 @@
         <section id="about" class="about">
           <h3 class="about-headline">Stylist Menswear 2019</h3>
           <div class="featured">
-
             <span class="featured-float-left">Future Icon 1</span>
             <p class="featured-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
           </div>
@@ -55,9 +56,15 @@
             <span class="icon">Future Icon 3</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
           </div>
+          <div class="featured">
+            <span class="icon">Future Icon 4</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure voluptatem placeat accusantium adipisci facilis libero unde molestias repellat deserunt reprehenderit, officiis sapiente laboriosam! Sint incidunt soluta, commodi consequuntur aut voluptatem possimus, eos non accusamus!</p>
+          </div>
         </section>
       </main>
     </div>
-    <link rel="preload" as="script" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
+      const freecodecampCdn = window.bundle;
+    </script>
   </body>
 </html>

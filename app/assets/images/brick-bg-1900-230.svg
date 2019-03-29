@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1900"
+   height="230"
+   viewBox="0 0 502.70832 60.854168"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="brick-bg-1900-230.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath846">
+      <rect
+         style="opacity:1;fill:#8b8989;fill-opacity:0.71356788;fill-rule:nonzero;stroke:none;stroke-width:0.37770221;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect848"
+         width="502.70834"
+         height="60.854168"
+         x="-5.2529299e-006"
+         y="236.14581" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="843.84959"
+     inkscape:cy="370.87757"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-global="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-236.14582)">
+    <g
+       id="g1569">
+      <rect
+         y="236.14581"
+         x="-5.2529299e-006"
+         height="60.854168"
+         width="502.70834"
+         id="rect815"
+         style="opacity:1;fill:#bababa;fill-opacity:0.62983422;fill-rule:nonzero;stroke:none;stroke-width:0.37770221;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#8b8989;fill-opacity:0.71356785;fill-rule:nonzero;stroke:none;stroke-width:0.37770221;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect840"
+         width="502.70834"
+         height="60.854168"
+         x="-5.2529299e-006"
+         y="236.14581" />
+      <ellipse
+         clip-path="url(#clipPath846)"
+         ry="19.243406"
+         rx="293.46194"
+         cy="267.0658"
+         cx="243.21527"
+         id="path842"
+         style="opacity:1;fill:#8b8989;fill-opacity:0.71356788;fill-rule:nonzero;stroke:none;stroke-width:0.60213751;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
