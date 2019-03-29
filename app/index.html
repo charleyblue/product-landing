@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stylist Menswear</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
+
   </head>
   <body>
     <header id="header" class="flex-container">
        <img id="header-img" class="stylist-logo" src="assets/images/stylist-logo.svg" alt="stylist logo">
-         <nav id="nav-bar">
-           <a class="nav-link" href="#latest">Featured This Month</a>
-           <span>|</span>
-           <a class="nav-link" href="#">New Snazzy Wear</a>
-           <span>|</span>
-           <a class="nav-link how" href="#">How Stylist Works</a>
-         </nav>
-
+       <nav id="nav-bar">
+         <a class="nav-link" href="#latest">Featured This Month</a>
+         <span>|</span>
+         <a class="nav-link" href="#video">Trends 2019</a>
+         <span>|</span>
+         <a class="nav-link how" href="#about">How Stylist Works</a>
+       </nav>
     </header>
     <div id="container">
       <main class="main">
@@ -24,11 +24,9 @@
           <h1 class="hero-headline">Stylist Menswear</h1>
           <h2 class="hero-subheadline">Deals of the Month Club!</h2>
           <form id="form" class="hero-form" action="index.html" method="post">
-            <label for="deals-of-month">
-              <input id="deals-of-month" type="email" placeholder="Email"><br>
-              Get Your Deals!
-            </label>
-            <input id="submit" class="btn" type="submit" value="Sign-up!">
+            <input id="deals-of-month" class="hero-form__input" type="email" placeholder="Email"><br>
+            <label for="deals-of-month">Get Your Deals!</label><br>
+            <input id="submit" class="hero-form__btn" type="submit" value="Sign-up!">
           </form>
         </section>
         <section id="latest" class="flex-container">
@@ -42,7 +40,8 @@
             <iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/FzLLFK6AYjM" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
-        <section id="" class="about">
+        <section id="about" class="about">
+          <h3 class="about-headline">Stylist Menswear 2019</h3>
           <div class="featured">
 
             <span class="featured-float-left">Future Icon 1</span>
@@ -59,5 +58,6 @@
         </section>
       </main>
     </div>
+    <link rel="preload" as="script" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
   </body>
 </html>
